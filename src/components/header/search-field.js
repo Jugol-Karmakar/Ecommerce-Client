@@ -11,7 +11,7 @@ const SearchField = () => {
         // p: "2px 4px",
         display: "flex",
         alignItems: "center",
-        border: "2px solid rgb(227, 233, 239)",
+        border: "1px solid rgb(227, 233, 249)",
         borderRadius: 1200,
         height: "44px",
         overflow: "hidden",

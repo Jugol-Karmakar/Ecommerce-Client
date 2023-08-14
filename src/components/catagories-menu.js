@@ -33,16 +33,20 @@ const CatagoriesMenu = () => {
       <Grid container spacing={3}>
         {HOME_CATAGORIES.map((catagory) => (
           <Grid key={catagory.id} item md={3}>
-            <Link href="#nextlink" style={{ textDecoration: "none" }}>
+            <Link href={catagory.route} style={{ textDecoration: "none" }}>
               <Paper
                 elevation={3}
                 sx={{
                   display: "flex",
                   alignItems: "center",
-                  gap: "8px",
+                  gap: "14px",
                   overflow: "unset",
                   borderRadius: "8px",
                   padding: "0.75rem",
+                  "&:hover": {
+                    boxShadow:
+                      "-3px -3px 53px -9px rgba(138,136,136,0.31),0px 10px 10px 0px rgba(0,0,0,0.22)",
+                  },
                 }}
               >
                 <Image

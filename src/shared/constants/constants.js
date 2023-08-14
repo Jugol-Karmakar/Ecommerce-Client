@@ -5,117 +5,64 @@ import FormatListBulletedOutlinedIcon from "@mui/icons-material/FormatListBullet
 import CheckroomOutlinedIcon from "@mui/icons-material/CheckroomOutlined";
 import PowerOutlinedIcon from "@mui/icons-material/PowerOutlined";
 import HealthAndSafetyOutlinedIcon from "@mui/icons-material/HealthAndSafetyOutlined";
-import HouseboatOutlinedIcon from "@mui/icons-material/HouseboatOutlined";
 import LocalTaxiOutlinedIcon from "@mui/icons-material/LocalTaxiOutlined";
-import CakeOutlinedIcon from "@mui/icons-material/CakeOutlined";
-import FavoriteOutlinedIcon from "@mui/icons-material/FavoriteOutlined";
-import ToysOutlinedIcon from "@mui/icons-material/ToysOutlined";
-import DiamondOutlinedIcon from "@mui/icons-material/DiamondOutlined";
 
 export const HOME_CATAGORIES = [
   {
     id: 1,
-    name: "Home",
+    name: "Man",
     icon: <HomeOutlinedIcon />,
+    route: "/man",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [],
   },
   {
     id: 2,
-    name: "Popular Product",
+    name: "Woman",
     icon: <EmojiEventsOutlinedIcon />,
+    route: "/woman",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [],
   },
   {
     id: 3,
-    name: "Trending Product",
+    name: "Kids",
     icon: <TrendingUpOutlinedIcon />,
+    route: "/kids",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [],
   },
   {
     id: 4,
-    name: "All Product",
+    name: "Beauty",
     icon: <FormatListBulletedOutlinedIcon />,
+    route: "/beauty",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [],
   },
   {
     id: 5,
-    name: "Fashion",
+    name: "Electronics",
     icon: <CheckroomOutlinedIcon />,
+    route: "/electronics",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [
-      {
-        id: "1",
-        name: "Men's Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "2",
-        name: "Woman Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "3",
-        name: "Kid's Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-    ],
   },
   {
     id: 6,
-    name: "Electronics",
+    name: "Sports",
     icon: <PowerOutlinedIcon />,
+    route: "/sports",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [
-      {
-        id: "1",
-        name: "Men's Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "2",
-        name: "Woman Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "3",
-        name: "Kid's Fashion",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-    ],
   },
   {
     id: 7,
-    name: "Health Beauty",
+    name: "Vehicles",
     icon: <HealthAndSafetyOutlinedIcon />,
+    route: "/vehicles",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [
-      {
-        id: "1",
-        name: "Beauty Item",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "2",
-        name: "Medicine Item",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-      {
-        id: "3",
-        name: "Mackup Item",
-        link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-      },
-    ],
   },
 
   {
     id: 8,
-    name: "Vichels",
+    name: "PC and Mobile",
     icon: <LocalTaxiOutlinedIcon />,
+    route: "/pc-mobile",
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
-    subCategories: [],
   },
 ];
