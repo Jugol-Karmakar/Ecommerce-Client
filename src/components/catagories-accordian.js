@@ -75,7 +75,7 @@ const CatagoriesAccordian = ({ catagory }) => {
         </AccordionSummary>
 
         {catagory?.subCategories.map((subcatagory) => (
-          <AccordionDetails key={subcatagory.id} sx={{ p: 0 }}>
+          <AccordionDetails key={subcatagory?.id} sx={{ p: 0 }}>
             <ButtonBase>
               <Box
                 sx={{
