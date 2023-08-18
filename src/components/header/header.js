@@ -14,6 +14,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import SearchField from "./search-field";
+import { HEADER_LINK } from "../../shared/constants/constants";
 
 const Header = () => {
   return (
@@ -24,7 +25,7 @@ const Header = () => {
             disableGutters
             sx={{
               justifyContent: "space-between",
-              py: 2,
+              pt: 2,
             }}
           >
             <Link href="/">
@@ -91,6 +92,25 @@ const Header = () => {
               </Badge>
             </Stack>
           </Toolbar>
+          <Stack
+            display="flex"
+            direction="row"
+            justifyContent="flex-end"
+            spacing={5}
+            sx={{ py: 2 }}
+          >
+            {HEADER_LINK.map((link) => (
+              <Link
+                style={{ textDecoration: "none" }}
+                key={link.id}
+                href={link.route}
+              >
+                <Typography sx={{ fontSize: 15, color: "#121214" }}>
+                  {link.name}
+                </Typography>
+              </Link>
+            ))}
+          </Stack>
         </Box>
       </Container>
     </AppBar>

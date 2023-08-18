@@ -66,3 +66,26 @@ export const HOME_CATAGORIES = [
     link: "https://bazaar.ui-lib.com/healthbeauty-shop",
   },
 ];
+
+export const HEADER_LINK = [
+  {
+    id: 1,
+    name: "Home",
+    route: "/",
+  },
+  {
+    id: 2,
+    name: "Products",
+    route: "/products",
+  },
+  {
+    id: 3,
+    name: "Contact",
+    route: "/contact",
+  },
+  {
+    id: 4,
+    name: "Sell on E-Commerce",
+    route: "/https://www.linkedin.com/in/jugol-karmakar/",
+  },
+];

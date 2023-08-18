@@ -54,7 +54,7 @@ const Hero = () => {
         totalSlides={4}
         infinite
         isPlaying
-        interval={3000}
+        interval={5000}
       >
         <Slider>
           {HERO_ITEM.map((item, index) => {
