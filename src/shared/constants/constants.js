@@ -86,6 +86,6 @@ export const HEADER_LINK = [
   {
     id: 4,
     name: "Sell on E-Commerce",
-    route: "/https://www.linkedin.com/in/jugol-karmakar/",
+    route: "/jugol-karmakar",
   },
 ];
